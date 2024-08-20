@@ -1,0 +1,120 @@
+/* Estilo básico del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de encabezado */
+header {
+    background-color: #BC6A43;
+    color: wheat;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Contenedor de fila */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de columnas */
+.col-3, .col-4, .col-5, .col-6, .col-12 {
+    padding: 15px;
+}
+
+/* Columna de menú */
+.col-3.menu {
+    flex: 25%; /* Ocupa el 25% del ancho */
+    background-color: #0D1826;
+}
+
+/* Columna de ancho 33.33% */
+.col-4 {
+    flex: 33.33%; /* Ocupa un tercio del ancho */
+    background-color: #8F53AF; /* Ejemplo de color de fondo */
+    text-align: center;
+}
+
+/* Columna de ancho 50% */
+.col-6 {
+    flex: 50%; /* Ocupa el 50% del ancho */
+    background-color: #5C9B31;
+}
+
+/* Columna derecha */
+.right-column {
+    flex: 25%; /* Ajustado para que coincida con la clase col-4 */
+    background-color: rgb(143, 83, 175);
+    text-align: center;
+}
+
+.left-column {
+    flex: 25%; /* Ajustado para que coincida con la clase col-4 */
+    background-color: rgb(143, 83, 175);
+    text-align: center;
+}   
+/* Imagen derecha */
+.right-image {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto; 
+    margin-right: 0;
+    display: block;
+}
+.left-image {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto; 
+    margin-right: 0;
+    display: block;
+}
+/* Estilos del menú */
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #C1305A;
+    color: wheat;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Columna izquierda */
+.left-column {
+    background-color: #D4A5A5; /* Ejemplo de color de fondo */
+}
+
+/* Estilo responsivo para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .col-3, .col-4, .col-5, .col-6 {
+        flex: 100%; /* Las columnas ocupan el 100% del ancho */
+    }
+
+    .right-image {
+        margin-left: auto; /* Centra la imagen en pantallas pequeñas */
+        margin-right: auto;
+    }
+    .left-image {
+        margin-left: auto; /* Centra la imagen en pantallas pequeñas */
+        margin-right: auto;
+    }
+}
+img{
+    width: 200px;
+    height: auto;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
