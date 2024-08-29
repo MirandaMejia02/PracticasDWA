@@ -1,0 +1,29 @@
+/* CSS personalizado para la paginación */
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.pagination li {
+    list-style: none;
+}
+
+.pagination li a {
+    color: #007bff; /* Color primario de Bootstrap */
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.pagination li a:hover {
+    background-color: #007bff; /* Color primario de Bootstrap al pasar el ratón */
+    color: #fff; /* Texto blanco al pasar el ratón */
+}
+
+.pagination li a:active {
+    background-color: #0056b3; /* Azul más oscuro al hacer clic */
+    color: #fff;
+}

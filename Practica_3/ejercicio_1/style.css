@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #f0368d;
+    border-radius: 0;
+    border: none;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dcdcdc;
+}
